@@ -33,10 +33,15 @@ p#Sbutton {
     font-size: 20px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 #nav {
     display: flex;
-    padding: 20px;
-    margin: 20px;
+    justify-content: space-between;
+    width: 250px;
 }
 
 a {
