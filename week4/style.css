@@ -1,0 +1,49 @@
+.setbg {
+    background-image: url("images/background.jpeg");
+    height: 300px;
+    width: 800px;
+}
+
+.subscribe {
+    background-color: #b80500;
+    color: white;
+    border: 0px;
+}
+
+.join {
+    background-color: white;
+    color: #1a3b71;
+    border: 1.4px solid #1a3b71;
+}
+
+.button.style {
+    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 1px;
+    margin: 10px;
+}
+
+#Bbutton {
+    font-size: 20px;
+}
+
+
+p#Sbutton {
+    font-size: 20px;
+}
+
+#nav {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #8b3b60;
+}
+
+a:hover {
+    text-decoration: underline;
+}
