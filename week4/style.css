@@ -36,17 +36,25 @@ p#Sbutton {
 header {
     display: flex;
     justify-content: space-between;
+    background-color: #2b8eec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #nav {
     display: flex;
     justify-content: space-between;
-    width: 250px;
+    width: 300px;
+    color: white;
+    padding: 20PX;
+}
+
+#logo {
+    padding: 15px;
 }
 
 a {
-    text-decoration: none;
-    color: #8b3b60;
+    text-decoration: underline;
+    color: white;
 }
 
 a:hover {
