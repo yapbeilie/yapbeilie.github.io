@@ -3,6 +3,12 @@ body {
     font-size: 14px;
 }
 
+.nav {
+    display: flex;
+    background-color: rgb(255, 200, 210);
+}
+
+
 .container {
     display: flex;
     gap: 10px;
@@ -10,10 +16,22 @@ body {
 }
 
 .header {
-    background-color: rgb(255, 200, 210);
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    padding: 10px;
 }
+
+.sidePanel {
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    justify-content: flex-end;
+    margin: auto;
+    font-size: small;
+    font-weight: 500;
+}
+
 
 .footer {
     background-color: rgb(255, 200, 210);
@@ -22,7 +40,7 @@ body {
 }
 
 .c1 {
-    background-color: #d1bfff;
+    background-color: #bfedff;
     padding: 20px;
     flex: 1;
 }
@@ -30,13 +48,20 @@ body {
 .c2 {
     background-color: #d1bfff;
     padding: 20px;
-    flex: 2;
+    flex: 3;
 }
 
 .c3 {
-    background-color: #d1bfff;
+    background-color: #bfedff;
+
     padding: 20px;
     flex: 3;
+}
+
+.c4 {
+    background-color: #d1bfff;
+    padding: 20px;
+    flex: 1;
 }
 
 .sidebar {
@@ -48,12 +73,17 @@ body {
 .b1 {
     display: flex;
     gap: 10px;
-    padding: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .b2 {
     display: flex;
-    padding: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     gap: 10px;
 }
 

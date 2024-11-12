@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    background-color: #292f47;
+    padding: 15px;
+    color: white;
+    font-size: small;
+    font-family: "Roboto", sans-serif;
+    height: 50px;
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-left: auto;
+}
+
+
+.profile {
+    display: flex;
+    gap: 4px;
+}
+
+.user {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.uProfile {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logIn {
+    color: #e7706b;
+}
