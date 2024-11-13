@@ -1,0 +1,121 @@
+body{
+    font-family: "Host Grotesk", sans-serif;
+}
+
+.nav{
+    background-color: #FF71CD; 
+    color: #FFF7FC;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: left 50px;
+    padding-right: 50px;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    padding: 10px;
+}
+
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.profileInfo{
+    background-image: url("image/background.jpg");
+    padding: 50px;
+}
+
+.info{
+    text-align: center;
+    color: #FFF7FC;
+    padding: 50px;
+    align-items: center;
+}
+
+.bio
+{
+    width: 750px;
+    margin: auto;
+    gap: 0px 30px;
+}
+
+.schedule{
+    display: flex; 
+    padding: 10px;
+    gap: 20px 20px;
+}
+
+.schedule2{
+    display: flex; 
+    padding: 10px;
+    gap: 20px 20px;
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+
+}
+
+.week{
+    background-color: #fff8fcb9;
+    color: #5755FE;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    width: 1000px;
+    border-radius: 20px;
+    font-weight: bold
+}
+
+.week5{
+    background-color: #fff8fcb9;
+    color: #5755FE;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    width: 3000px;
+    border-radius: 20px;
+    font-weight: bold
+}
+
+.footer{
+    display: flex;
+    background-color: #FF71CD; 
+    color: #FFF7FC;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px -5px;
+    align-items: center;
+    margin-left: auto;
+    padding: 60px;
+}
+
+.contactB
+{
+    gap: 20px;
+}
+
+hr{
+    border-color: #FF71CD;
+    border-width: 1.5px ;
+    border-radius: 20%;
+}
+
+#profile{
+    border-radius: 50%;
+}
