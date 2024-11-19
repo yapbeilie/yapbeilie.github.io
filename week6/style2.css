@@ -1,0 +1,22 @@
+.banner {
+    background-color: #c3bdb0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+.text {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.image {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    width: auto;
+    height: 200px;
+}
