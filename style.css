@@ -109,7 +109,7 @@ a {
     color: #0C359E;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:750px) {
     .bio {
         max-width: 100%;
     }
