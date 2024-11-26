@@ -111,7 +111,7 @@ a {
 
 @media screen and (max-width:600px) {
     .bio {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .week {
@@ -123,8 +123,8 @@ a {
     }
 
     .footer {
-        height: 200px;
-        padding-top: 10px;
+        height: 150px;
+        padding: 20px;
     }
 
 
