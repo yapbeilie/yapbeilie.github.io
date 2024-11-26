@@ -27,7 +27,7 @@ body {
     padding: 10px;
     gap: 5px;
     justify-content: flex-end;
-    margin: auto;
+    flex-direction: row;
     font-size: small;
     font-weight: 500;
 }
