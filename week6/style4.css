@@ -18,7 +18,6 @@ img.background{
 }
 
 .box {
-    border: 1px solid red;
     display: flex;
     position: absolute;
     flex-direction: column;
