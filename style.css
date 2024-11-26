@@ -97,7 +97,8 @@ body {
 hr {
     border-color: #EE99C2;
     border-width: 1.5px;
-    border-radius: 20%;
+    border-radius: 40%;
+    max-width: 80%;
 }
 
 #profile {
@@ -113,6 +114,7 @@ a {
 a:hover {
     color: #ad3772;
 }
+
 
 @media screen and (max-width:750px) {
     .bio {
