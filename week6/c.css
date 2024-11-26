@@ -3,7 +3,6 @@ body {
 }
 
 .banner {
-    border: 1px solid green;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -13,7 +12,6 @@ body {
 }
 
 .box {
-    border: 1px solid purple;
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -47,7 +45,6 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 1px solid red;
     padding-bottom: 5px;
 }
 
