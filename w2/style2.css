@@ -1,0 +1,67 @@
+body {
+    color: #d07070;
+    background-color: #510819;
+}
+
+hr {
+    border-color: #d07070;
+    margin-bottom: 30px;
+}
+
+.bold-Text {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Times New Roman, serif;
+}
+
+p {
+    font-family: aktiv-grotesk, sans-serif;
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+    transition: all 0.5s ease;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.box2 {
+    padding-top: 40px;
+}
+
+.box3 {
+    padding-top: 80px;
+}
+
+.box4 {
+    padding-top: 120px;
+}
+
+@media (max-width: 800px) {
+
+    .box2 {
+        padding-top: 0px;
+    }
+
+    .box3 {
+        padding-top: 0px;
+    }
+
+    .box4 {
+        padding-top: 0px;
+    }
+}
