@@ -1,25 +1,32 @@
 body {
     color: #d07070;
     background-color: #510819;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 hr {
     border-color: #d07070;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
-.bold-Text {
+h2{
     margin: 0;
     text-transform: uppercase;
     font-family: Times New Roman, serif;
+    font-weight: 400;
+    font-size: 24px;
+
 }
 
 p {
     font-family: aktiv-grotesk, sans-serif;
+    border-color: #d07070;
 }
 
 img {
     filter: grayscale(100%);
+    transition: all 1.5s ease;
 }
 
 img:hover {
@@ -29,39 +36,59 @@ img:hover {
 
 .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
+    align-items: flex-start;  /* align all boxes to the top */
+    flex-wrap: nowrap;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
+.box1, .box2, .box3, .box4 {
+    width: 25%;
+    position: relative;
+    padding: 1.5%;
+    box-sizing: border-box; /* ensures padding doesn't expand the box width */
+}
+
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
 
 .box2 {
-    padding-top: 70px;
+    margin-top: 150px;
 }
 
 .box3 {
-    padding-top: 140px;
+    margin-top: 300px;
 }
 
 .box4 {
-    padding-top: 210px;
+    margin-top: 450px;
 }
 
-@media (max-width: 800px) {
+/* Responsive view */
+@media (max-width: 1020px) {
 
-    .box2 {
-        padding-top: 0px;
+
+    .container {
+        flex-wrap: wrap;
     }
 
-    .box3 {
-        padding-top: 0px;
+    .box1, .box2, .box3, .box4 {
+        width: 50%;
+        margin-top: 0;
     }
+}
 
-    .box4 {
-        padding-top: 0px;
+@media (max-width: 1020px) {
+    .box1, .box2, .box3, .box4 {
+        width: 100%;
+        margin-top: 0;
     }
 }
