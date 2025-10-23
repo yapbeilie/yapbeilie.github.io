@@ -1,15 +1,12 @@
+
 body {
     font-family: 'Archivo', sans-serif;
-    padding: 10px;
     font-weight: 400;
     background-color: rgb(255, 255, 255);
+    margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
+/* Anchor/link styles */
 a {
     text-decoration: none;
     color: black;
@@ -26,23 +23,26 @@ img{
 }
 
 button#contact {
-    background-color: rgb(255, 122, 27);
+    background-color:rgb(255, 102, 0);
     color: white;
     border: none;
     font-weight: 600;
-    border-radius: 2px;
+    border-radius: 10px;
     height: 40px;
     padding: 0px 20px;
+    margin: 0;
 }
 
 .nav {
-    height: 20px;
+    height:50px;
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px 40px;
 }
 
 .mid {
@@ -62,7 +62,6 @@ button#contact {
 
 .phone p {
     margin: 0;
-    /* remove default block margin so it sits neatly beside the icon */
 }
 
 .contact {
@@ -73,26 +72,49 @@ button#contact {
 }
 
 .mobile {
+    width: 30px;
     display: none;
 }
 
-@media (max-width: 1290px) {
+@media (max-width: 1280px) {
+    
+
+    .nav{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 10px 30px;
+    }
+
     .mid {
         display: none;
     }
 
-}
-
-@media (max-width: 765px) {
-    .phone {
-        display: none;
-    }
-
-    button {
+    button#contact {
         display: none;
     }
 
     .mobile {
         display: block;
+    }
+
+}
+
+@media (max-width: 765px) {
+
+
+    .phone {
+        display: none;
+    }
+
+    button#contact {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .contact{
+        width: 20px;
     }
 }
