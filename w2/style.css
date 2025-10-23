@@ -18,13 +18,15 @@ button {
 }
 
 .main-container {
-    width: 100%;
+    width: auto;
+    height: 900px;
     text-align: center;
     overflow: hidden;
     margin-top: 40px;
     background-image: url(https://construction.elementra.themerex.net/wp-content/uploads/2025/04/custom-img-027-copyright.jpg);
     background-size: cover;
     border-radius: 16px;
+    padding: 0px;
 }
 
 .main-text {
@@ -74,5 +76,6 @@ p#main {
 }
 
 h2 {
-    color: orange;
+    color: rgb(255, 136, 0);
+    font-size: 50px;
 }
